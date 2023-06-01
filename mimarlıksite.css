@@ -1,0 +1,82 @@
+
+
+body{background-color: white;}
+
+#baslikyazi{
+    position: absolute;
+    text-align: center;
+    left: 41%;
+    right: 40%;
+    font-size: 105px;
+    font-family: Bodoni MT;
+    text-shadow: 2px 2px #090909;
+    color: #f4f3f3;
+    background-color: #c3c3c3;
+    border-style: outset;
+    width: 20%;
+   
+}
+
+#baslikyazi2{
+    font-size: 25px;
+    font-family: Century Gothic;
+    position: absolute;
+    top: 26%;
+    text-shadow: 2px 2px #fff;
+    background-color: #c3c3c3;
+    border-style: outset;
+    width: 100%;
+    text-align: center;
+   
+}
+
+a {
+    text-decoration:none;
+    color:rgb(255, 255, 255); 
+    transition: left 0s linear;
+ }
+
+ a:hover {
+    color: #78accd; 
+    }
+
+
+#container {
+    position: relative;
+    width: 728px;
+    height: 288px;
+    border: 0px solid black;
+    overflow: hidden;
+    top: 240px;
+}
+
+#draggable {
+    position: absolute;
+    width: 364px;
+    height: 288px;
+    left: 0;
+    background-color: #c3c3c3;
+    z-index: 1;
+    transition: left 0.6s ease;
+    border-radius: 25px;
+}
+
+#target {
+    position: absolute;
+    width: 364px;
+    height: 288px;
+    background-image: url(https://sothebysrealty.gr/wp-content/uploads/2022/04/sothebys-greece-cyana-2022-06-22_09-11-16_524114-768x478.jpg);
+    background-size: cover;
+    left: 0;
+    opacity: 1;
+    z-index: 3;
+    transition: left 0.6s ease;
+    border-radius: 25px;
+
+}
+
+#bilgi1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
